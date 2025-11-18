@@ -1,0 +1,304 @@
+# === Starting Constrained Random Testbench (Part 3) ===
+# MEM[0]  OPCODE=0001  A=23  B=23
+# PASS | opcode=0001 a=23 b=23 | result=46
+# ---------------------------
+# MEM[1]  OPCODE=0001  A=28  B=5
+# PASS | opcode=0001 a=28 b=5 | result=33
+# ---------------------------
+# MEM[2]  OPCODE=0010  A=207  B=49
+# PASS | opcode=0010 a=207 b=49 | result=158
+# ---------------------------
+# MEM[3]  OPCODE=0001  A=8  B=19
+# PASS | opcode=0001 a=8 b=19 | result=27
+# ---------------------------
+# MEM[4]  OPCODE=0001  A=18  B=39
+# PASS | opcode=0001 a=18 b=39 | result=57
+# ---------------------------
+# MEM[5]  OPCODE=0001  A=38  B=37
+# PASS | opcode=0001 a=38 b=37 | result=75
+# ---------------------------
+# MEM[6]  OPCODE=0011  A=94  B=55
+# PASS | opcode=0011 a=94 b=55 | result=5170
+# ---------------------------
+# MEM[7]  OPCODE=0010  A=218  B=186
+# PASS | opcode=0010 a=218 b=186 | result=32
+# ---------------------------
+# MEM[8]  OPCODE=0001  A=5  B=4
+# PASS | opcode=0001 a=5 b=4 | result=9
+# ---------------------------
+# MEM[9]  OPCODE=0010  A=13  B=11
+# PASS | opcode=0010 a=13 b=11 | result=2
+# ---------------------------
+# MEM[10]  OPCODE=0001  A=40  B=1
+# PASS | opcode=0001 a=40 b=1 | result=41
+# ---------------------------
+# MEM[11]  OPCODE=0001  A=38  B=37
+# PASS | opcode=0001 a=38 b=37 | result=75
+# ---------------------------
+# MEM[12]  OPCODE=0001  A=4  B=35
+# PASS | opcode=0001 a=4 b=35 | result=39
+# ---------------------------
+# MEM[13]  OPCODE=0010  A=245  B=239
+# PASS | opcode=0010 a=245 b=239 | result=6
+# ---------------------------
+# MEM[14]  OPCODE=0010  A=200  B=15
+# PASS | opcode=0010 a=200 b=15 | result=185
+# ---------------------------
+# MEM[15]  OPCODE=0010  A=162  B=22
+# PASS | opcode=0010 a=162 b=22 | result=140
+# ---------------------------
+# MEM[16]  OPCODE=0010  A=30  B=17
+# PASS | opcode=0010 a=30 b=17 | result=13
+# ---------------------------
+# MEM[17]  OPCODE=0010  A=83  B=82
+# PASS | opcode=0010 a=83 b=82 | result=1
+# ---------------------------
+# MEM[18]  OPCODE=0001  A=45  B=19
+# PASS | opcode=0001 a=45 b=19 | result=64
+# ---------------------------
+# MEM[19]  OPCODE=0001  A=30  B=25
+# PASS | opcode=0001 a=30 b=25 | result=55
+# ---------------------------
+# MEM[20]  OPCODE=0001  A=39  B=34
+# PASS | opcode=0001 a=39 b=34 | result=73
+# ---------------------------
+# MEM[21]  OPCODE=0011  A=188  B=19
+# PASS | opcode=0011 a=188 b=19 | result=3572
+# ---------------------------
+# MEM[22]  OPCODE=0001  A=47  B=23
+# PASS | opcode=0001 a=47 b=23 | result=70
+# ---------------------------
+# MEM[23]  OPCODE=0011  A=34  B=177
+# PASS | opcode=0011 a=34 b=177 | result=6018
+# ---------------------------
+# MEM[24]  OPCODE=0001  A=20  B=39
+# PASS | opcode=0001 a=20 b=39 | result=59
+# ---------------------------
+# MEM[25]  OPCODE=0001  A=10  B=26
+# PASS | opcode=0001 a=10 b=26 | result=36
+# ---------------------------
+# MEM[26]  OPCODE=0001  A=37  B=17
+# PASS | opcode=0001 a=37 b=17 | result=54
+# ---------------------------
+# MEM[27]  OPCODE=0010  A=7  B=0
+# PASS | opcode=0010 a=7 b=0 | result=7
+# ---------------------------
+# MEM[28]  OPCODE=0010  A=251  B=73
+# PASS | opcode=0010 a=251 b=73 | result=178
+# ---------------------------
+# MEM[29]  OPCODE=0001  A=44  B=29
+# PASS | opcode=0001 a=44 b=29 | result=73
+# ---------------------------
+# MEM[30]  OPCODE=0001  A=47  B=28
+# PASS | opcode=0001 a=47 b=28 | result=75
+# ---------------------------
+# MEM[31]  OPCODE=0001  A=16  B=8
+# PASS | opcode=0001 a=16 b=8 | result=24
+# ---------------------------
+# MEM[32]  OPCODE=0001  A=37  B=10
+# PASS | opcode=0001 a=37 b=10 | result=47
+# ---------------------------
+# MEM[33]  OPCODE=0010  A=106  B=97
+# PASS | opcode=0010 a=106 b=97 | result=9
+# ---------------------------
+# MEM[34]  OPCODE=0010  A=63  B=48
+# PASS | opcode=0010 a=63 b=48 | result=15
+# ---------------------------
+# MEM[35]  OPCODE=1011  A=186  B=51
+# PASS | opcode=1011 a=186 b=51 | result=3
+# ---------------------------
+# MEM[36]  OPCODE=0010  A=222  B=104
+# PASS | opcode=0010 a=222 b=104 | result=118
+# ---------------------------
+# MEM[37]  OPCODE=0001  A=24  B=21
+# PASS | opcode=0001 a=24 b=21 | result=45
+# ---------------------------
+# MEM[38]  OPCODE=0001  A=14  B=8
+# PASS | opcode=0001 a=14 b=8 | result=22
+# ---------------------------
+# MEM[39]  OPCODE=0010  A=237  B=121
+# PASS | opcode=0010 a=237 b=121 | result=116
+# ---------------------------
+# MEM[40]  OPCODE=0010  A=68  B=41
+# PASS | opcode=0010 a=68 b=41 | result=27
+# ---------------------------
+# MEM[41]  OPCODE=0001  A=30  B=38
+# PASS | opcode=0001 a=30 b=38 | result=68
+# ---------------------------
+# MEM[42]  OPCODE=0010  A=177  B=118
+# PASS | opcode=0010 a=177 b=118 | result=59
+# ---------------------------
+# MEM[43]  OPCODE=0010  A=247  B=241
+# PASS | opcode=0010 a=247 b=241 | result=6
+# ---------------------------
+# MEM[44]  OPCODE=0010  A=255  B=225
+# PASS | opcode=0010 a=255 b=225 | result=30
+# ---------------------------
+# MEM[45]  OPCODE=0010  A=220  B=171
+# PASS | opcode=0010 a=220 b=171 | result=49
+# ---------------------------
+# MEM[46]  OPCODE=0001  A=8  B=48
+# PASS | opcode=0001 a=8 b=48 | result=56
+# ---------------------------
+# MEM[47]  OPCODE=0010  A=243  B=218
+# PASS | opcode=0010 a=243 b=218 | result=25
+# ---------------------------
+# MEM[48]  OPCODE=0001  A=38  B=26
+# PASS | opcode=0001 a=38 b=26 | result=64
+# ---------------------------
+# MEM[49]  OPCODE=0001  A=2  B=9
+# PASS | opcode=0001 a=2 b=9 | result=11
+# ---------------------------
+# MEM[50]  OPCODE=0001  A=49  B=14
+# PASS | opcode=0001 a=49 b=14 | result=63
+# ---------------------------
+# MEM[51]  OPCODE=0001  A=27  B=32
+# PASS | opcode=0001 a=27 b=32 | result=59
+# ---------------------------
+# MEM[52]  OPCODE=0010  A=122  B=60
+# PASS | opcode=0010 a=122 b=60 | result=62
+# ---------------------------
+# MEM[53]  OPCODE=0001  A=18  B=41
+# PASS | opcode=0001 a=18 b=41 | result=59
+# ---------------------------
+# MEM[54]  OPCODE=0011  A=190  B=107
+# PASS | opcode=0011 a=190 b=107 | result=20330
+# ---------------------------
+# MEM[55]  OPCODE=0010  A=82  B=25
+# PASS | opcode=0010 a=82 b=25 | result=57
+# ---------------------------
+# MEM[56]  OPCODE=0011  A=138  B=81
+# PASS | opcode=0011 a=138 b=81 | result=11178
+# ---------------------------
+# MEM[57]  OPCODE=0001  A=34  B=43
+# PASS | opcode=0001 a=34 b=43 | result=77
+# ---------------------------
+# MEM[58]  OPCODE=0001  A=5  B=1
+# PASS | opcode=0001 a=5 b=1 | result=6
+# ---------------------------
+# MEM[59]  OPCODE=0001  A=23  B=49
+# PASS | opcode=0001 a=23 b=49 | result=72
+# ---------------------------
+# MEM[60]  OPCODE=0011  A=184  B=161
+# PASS | opcode=0011 a=184 b=161 | result=29624
+# ---------------------------
+# MEM[61]  OPCODE=0011  A=44  B=147
+# PASS | opcode=0011 a=44 b=147 | result=6468
+# ---------------------------
+# MEM[62]  OPCODE=0010  A=123  B=80
+# PASS | opcode=0010 a=123 b=80 | result=43
+# ---------------------------
+# MEM[63]  OPCODE=0010  A=241  B=210
+# PASS | opcode=0010 a=241 b=210 | result=31
+# ---------------------------
+# MEM[64]  OPCODE=0010  A=238  B=209
+# PASS | opcode=0010 a=238 b=209 | result=29
+# ---------------------------
+# MEM[65]  OPCODE=0001  A=45  B=46
+# PASS | opcode=0001 a=45 b=46 | result=91
+# ---------------------------
+# MEM[66]  OPCODE=0011  A=86  B=27
+# PASS | opcode=0011 a=86 b=27 | result=2322
+# ---------------------------
+# MEM[67]  OPCODE=0010  A=164  B=124
+# PASS | opcode=0010 a=164 b=124 | result=40
+# ---------------------------
+# MEM[68]  OPCODE=0011  A=20  B=197
+# PASS | opcode=0011 a=20 b=197 | result=3940
+# ---------------------------
+# MEM[69]  OPCODE=0010  A=101  B=32
+# PASS | opcode=0010 a=101 b=32 | result=69
+# ---------------------------
+# MEM[70]  OPCODE=0010  A=106  B=59
+# PASS | opcode=0010 a=106 b=59 | result=47
+# ---------------------------
+# MEM[71]  OPCODE=0010  A=67  B=44
+# PASS | opcode=0010 a=67 b=44 | result=23
+# ---------------------------
+# MEM[72]  OPCODE=0011  A=42  B=189
+# PASS | opcode=0011 a=42 b=189 | result=7938
+# ---------------------------
+# MEM[73]  OPCODE=0001  A=41  B=1
+# PASS | opcode=0001 a=41 b=1 | result=42
+# ---------------------------
+# MEM[74]  OPCODE=0001  A=0  B=37
+# PASS | opcode=0001 a=0 b=37 | result=37
+# ---------------------------
+# MEM[75]  OPCODE=0001  A=20  B=24
+# PASS | opcode=0001 a=20 b=24 | result=44
+# ---------------------------
+# MEM[76]  OPCODE=1011  A=198  B=206
+# PASS | opcode=1011 a=198 b=206 | result=2
+# ---------------------------
+# MEM[77]  OPCODE=0010  A=93  B=78
+# PASS | opcode=0010 a=93 b=78 | result=15
+# ---------------------------
+# MEM[78]  OPCODE=0010  A=104  B=81
+# PASS | opcode=0010 a=104 b=81 | result=23
+# ---------------------------
+# MEM[79]  OPCODE=0001  A=47  B=30
+# PASS | opcode=0001 a=47 b=30 | result=77
+# ---------------------------
+# MEM[80]  OPCODE=0011  A=218  B=39
+# PASS | opcode=0011 a=218 b=39 | result=8502
+# ---------------------------
+# MEM[81]  OPCODE=0001  A=27  B=34
+# PASS | opcode=0001 a=27 b=34 | result=61
+# ---------------------------
+# MEM[82]  OPCODE=0001  A=15  B=25
+# PASS | opcode=0001 a=15 b=25 | result=40
+# ---------------------------
+# MEM[83]  OPCODE=0010  A=224  B=76
+# PASS | opcode=0010 a=224 b=76 | result=148
+# ---------------------------
+# MEM[84]  OPCODE=0001  A=28  B=28
+# PASS | opcode=0001 a=28 b=28 | result=56
+# ---------------------------
+# MEM[85]  OPCODE=0010  A=201  B=31
+# PASS | opcode=0010 a=201 b=31 | result=170
+# ---------------------------
+# MEM[86]  OPCODE=0011  A=78  B=39
+# PASS | opcode=0011 a=78 b=39 | result=3042
+# ---------------------------
+# MEM[87]  OPCODE=0010  A=139  B=113
+# PASS | opcode=0010 a=139 b=113 | result=26
+# ---------------------------
+# MEM[88]  OPCODE=0011  A=28  B=221
+# PASS | opcode=0011 a=28 b=221 | result=6188
+# ---------------------------
+# MEM[89]  OPCODE=0010  A=234  B=226
+# PASS | opcode=0010 a=234 b=226 | result=8
+# ---------------------------
+# MEM[90]  OPCODE=0010  A=18  B=0
+# PASS | opcode=0010 a=18 b=0 | result=18
+# ---------------------------
+# MEM[91]  OPCODE=0010  A=31  B=11
+# PASS | opcode=0010 a=31 b=11 | result=20
+# ---------------------------
+# MEM[92]  OPCODE=0010  A=238  B=224
+# PASS | opcode=0010 a=238 b=224 | result=14
+# ---------------------------
+# MEM[93]  OPCODE=0010  A=184  B=113
+# PASS | opcode=0010 a=184 b=113 | result=71
+# ---------------------------
+# MEM[94]  OPCODE=0010  A=193  B=41
+# PASS | opcode=0010 a=193 b=41 | result=152
+# ---------------------------
+# MEM[95]  OPCODE=0010  A=81  B=28
+# PASS | opcode=0010 a=81 b=28 | result=53
+# ---------------------------
+# MEM[96]  OPCODE=0001  A=24  B=39
+# PASS | opcode=0001 a=24 b=39 | result=63
+# ---------------------------
+# MEM[97]  OPCODE=0010  A=249  B=236
+# PASS | opcode=0010 a=249 b=236 | result=13
+# ---------------------------
+# MEM[98]  OPCODE=1011  A=120  B=182
+# PASS | opcode=1011 a=120 b=182 | result=2
+# ---------------------------
+# MEM[99]  OPCODE=0001  A=33  B=37
+# PASS | opcode=0001 a=33 b=37 | result=70
+# ---------------------------
+# === Part 3 Test Finished ===
+# ** Note: $finish    : /ecel/UFAD/clausch/sv2/SVlab2/tb_part3.sv(225)
+#    Time: 5245 ns  Iteration: 0  Instance: /tb_randomize_p3

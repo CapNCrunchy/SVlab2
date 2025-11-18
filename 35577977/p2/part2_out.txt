@@ -1,0 +1,349 @@
+# Starting Testbench...
+# Displaying Memory Contents Iter=0 | Opcode=0001 | A=10 | B=5
+# Result_PASS | Opcode=1 A=10 B=5 | Result=15
+# .............................
+# Displaying Memory Contents Iter=1 | Opcode=0010 | A=20 | B=8
+# Result_PASS | Opcode=10 A=20 B=8 | Result=12
+# .............................
+# Displaying Memory Contents Iter=2 | Opcode=0011 | A=5 | B=3
+# Result_PASS | Opcode=11 A=5 B=3 | Result=15
+# .............................
+# Displaying Memory Contents Iter=3 | Opcode=1011 | A=85 | B=51
+# Result_PASS | Opcode=1011 A=85 B=51 | Result=17
+# .............................
+# Displaying Memory Contents Iter=4 | Opcode=0001 | A=10 | B=5
+# Result_PASS | Opcode=1 A=10 B=5 | Result=15
+# .............................
+# Displaying Memory Contents Iter=5 | Opcode=0010 | A=20 | B=8
+# Result_PASS | Opcode=10 A=20 B=8 | Result=12
+# .............................
+# Displaying Memory Contents Iter=6 | Opcode=0011 | A=5 | B=3
+# Result_PASS | Opcode=11 A=5 B=3 | Result=15
+# .............................
+# Displaying Memory Contents Iter=7 | Opcode=1011 | A=85 | B=51
+# Result_PASS | Opcode=1011 A=85 B=51 | Result=17
+# .............................
+# Displaying Memory Contents Iter=8 | Opcode=1111 | A=184 | B=253
+# Result_PASS | Opcode=1111 A=184 B=253 | Result=0
+# .............................
+# Displaying Memory Contents Iter=9 | Opcode=1101 | A=184 | B=253
+# Result_PASS | Opcode=1101 A=184 B=253 | Result=0
+# .............................
+# === Test Finished ===
+# ** Note: $finish    : /ecel/UFAD/clausch/sv2/SVlab2/basic_tb.sv(134)
+#    Time: 605 ns  Iteration: 0  Instance: /tb_hardcoded
+# 1
+# Break at /ecel/UFAD/clausch/sv2/SVlab2/basic_tb.sv line 134
+vsim work.tb_randomize_p2
+# End time: 14:21:06 on Nov 18,2025, Elapsed time: 0:36:01
+# Errors: 0, Warnings: 1
+# vsim work.tb_randomize_p2 
+# Start time: 14:21:06 on Nov 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_randomize_p2(fast)
+run -all
+# === Starting CRV Testbench ===
+# Displaying Memory Contents Iter=0 | Opcode=0011 | A=202 | B=165
+# Result_PASS | Opcode=0011 A=202 B=165 | Result=33330
+# .............................
+# Displaying Memory Contents Iter=1 | Opcode=1011 | A=18 | B=139
+# Result_PASS | Opcode=1011 A=18 B=139 | Result=1
+# .............................
+# Displaying Memory Contents Iter=2 | Opcode=1011 | A=99 | B=239
+# Result_PASS | Opcode=1011 A=99 B=239 | Result=1
+# .............................
+# Displaying Memory Contents Iter=3 | Opcode=0101 | A=36 | B=182
+# Result_PASS | Opcode=0101 A=36 B=182 | Result=0
+# .............................
+# Displaying Memory Contents Iter=4 | Opcode=0101 | A=4 | B=170
+# Result_PASS | Opcode=0101 A=4 B=170 | Result=0
+# .............................
+# Displaying Memory Contents Iter=5 | Opcode=0100 | A=49 | B=230
+# Result_PASS | Opcode=0100 A=49 B=230 | Result=0
+# .............................
+# Displaying Memory Contents Iter=6 | Opcode=1011 | A=17 | B=168
+# Result_PASS | Opcode=1011 A=17 B=168 | Result=1
+# .............................
+# Displaying Memory Contents Iter=7 | Opcode=0100 | A=211 | B=160
+# Result_PASS | Opcode=0100 A=211 B=160 | Result=0
+# .............................
+# Displaying Memory Contents Iter=8 | Opcode=0100 | A=43 | B=80
+# Result_PASS | Opcode=0100 A=43 B=80 | Result=0
+# .............................
+# Displaying Memory Contents Iter=9 | Opcode=1100 | A=124 | B=244
+# Result_PASS | Opcode=1100 A=124 B=244 | Result=0
+# .............................
+# Displaying Memory Contents Iter=10 | Opcode=0110 | A=131 | B=28
+# Result_PASS | Opcode=0110 A=131 B=28 | Result=0
+# .............................
+# Displaying Memory Contents Iter=11 | Opcode=0100 | A=186 | B=143
+# Result_PASS | Opcode=0100 A=186 B=143 | Result=0
+# .............................
+# Displaying Memory Contents Iter=12 | Opcode=0011 | A=76 | B=251
+# Result_PASS | Opcode=0011 A=76 B=251 | Result=19076
+# .............................
+# Displaying Memory Contents Iter=13 | Opcode=0111 | A=130 | B=179
+# Result_PASS | Opcode=0111 A=130 B=179 | Result=0
+# .............................
+# Displaying Memory Contents Iter=14 | Opcode=0001 | A=124 | B=127
+# Result_PASS | Opcode=0001 A=124 B=127 | Result=251
+# .............................
+# Displaying Memory Contents Iter=15 | Opcode=0100 | A=96 | B=5
+# Result_PASS | Opcode=0100 A=96 B=5 | Result=0
+# .............................
+# Displaying Memory Contents Iter=16 | Opcode=1001 | A=7 | B=54
+# Result_PASS | Opcode=1001 A=7 B=54 | Result=0
+# .............................
+# Displaying Memory Contents Iter=17 | Opcode=1000 | A=64 | B=3
+# Result_PASS | Opcode=1000 A=64 B=3 | Result=0
+# .............................
+# Displaying Memory Contents Iter=18 | Opcode=0101 | A=6 | B=20
+# Result_PASS | Opcode=0101 A=6 B=20 | Result=0
+# .............................
+# Displaying Memory Contents Iter=19 | Opcode=1101 | A=68 | B=243
+# Result_PASS | Opcode=1101 A=68 B=243 | Result=0
+# .............................
+# Displaying Memory Contents Iter=20 | Opcode=0000 | A=26 | B=188
+# Result_PASS | Opcode=0000 A=26 B=188 | Result=0
+# .............................
+# Displaying Memory Contents Iter=21 | Opcode=1001 | A=102 | B=120
+# Result_PASS | Opcode=1001 A=102 B=120 | Result=0
+# .............................
+# Displaying Memory Contents Iter=22 | Opcode=0010 | A=4 | B=41
+# Result_PASS | Opcode=0010 A=4 B=41 | Result=65499
+# .............................
+# Displaying Memory Contents Iter=23 | Opcode=0111 | A=82 | B=64
+# Result_PASS | Opcode=0111 A=82 B=64 | Result=0
+# .............................
+# Displaying Memory Contents Iter=24 | Opcode=0101 | A=91 | B=57
+# Result_PASS | Opcode=0101 A=91 B=57 | Result=0
+# .............................
+# Displaying Memory Contents Iter=25 | Opcode=1101 | A=161 | B=36
+# Result_PASS | Opcode=1101 A=161 B=36 | Result=0
+# .............................
+# Displaying Memory Contents Iter=26 | Opcode=0000 | A=238 | B=178
+# Result_PASS | Opcode=0000 A=238 B=178 | Result=0
+# .............................
+# Displaying Memory Contents Iter=27 | Opcode=0010 | A=249 | B=130
+# Result_PASS | Opcode=0010 A=249 B=130 | Result=119
+# .............................
+# Displaying Memory Contents Iter=28 | Opcode=1100 | A=234 | B=1
+# Result_PASS | Opcode=1100 A=234 B=1 | Result=0
+# .............................
+# Displaying Memory Contents Iter=29 | Opcode=1000 | A=172 | B=132
+# Result_PASS | Opcode=1000 A=172 B=132 | Result=0
+# .............................
+# Displaying Memory Contents Iter=30 | Opcode=1110 | A=225 | B=112
+# Result_PASS | Opcode=1110 A=225 B=112 | Result=0
+# .............................
+# Displaying Memory Contents Iter=31 | Opcode=1000 | A=155 | B=186
+# Result_PASS | Opcode=1000 A=155 B=186 | Result=0
+# .............................
+# Displaying Memory Contents Iter=32 | Opcode=1101 | A=87 | B=244
+# Result_PASS | Opcode=1101 A=87 B=244 | Result=0
+# .............................
+# Displaying Memory Contents Iter=33 | Opcode=1111 | A=188 | B=116
+# Result_PASS | Opcode=1111 A=188 B=116 | Result=0
+# .............................
+# Displaying Memory Contents Iter=34 | Opcode=1100 | A=253 | B=231
+# Result_PASS | Opcode=1100 A=253 B=231 | Result=0
+# .............................
+# Displaying Memory Contents Iter=35 | Opcode=0001 | A=52 | B=70
+# ** Error: FAIL | Opcode=0001 A=52 B=70 | Got=0, Expected=122
+#    Time: 1515 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=36 | Opcode=1100 | A=31 | B=8
+# Result_PASS | Opcode=1100 A=31 B=8 | Result=0
+# .............................
+# Displaying Memory Contents Iter=37 | Opcode=0000 | A=84 | B=35
+# Result_PASS | Opcode=0000 A=84 B=35 | Result=0
+# .............................
+# Displaying Memory Contents Iter=38 | Opcode=1010 | A=86 | B=26
+# Result_PASS | Opcode=1010 A=86 B=26 | Result=0
+# .............................
+# Displaying Memory Contents Iter=39 | Opcode=0111 | A=9 | B=85
+# Result_PASS | Opcode=0111 A=9 B=85 | Result=0
+# .............................
+# Displaying Memory Contents Iter=40 | Opcode=0110 | A=106 | B=0
+# Result_PASS | Opcode=0110 A=106 B=0 | Result=0
+# .............................
+# Displaying Memory Contents Iter=41 | Opcode=1110 | A=254 | B=60
+# Result_PASS | Opcode=1110 A=254 B=60 | Result=0
+# .............................
+# Displaying Memory Contents Iter=42 | Opcode=1111 | A=238 | B=84
+# Result_PASS | Opcode=1111 A=238 B=84 | Result=0
+# .............................
+# Displaying Memory Contents Iter=43 | Opcode=0110 | A=138 | B=211
+# Result_PASS | Opcode=0110 A=138 B=211 | Result=0
+# .............................
+# Displaying Memory Contents Iter=44 | Opcode=0011 | A=221 | B=216
+# ** Error: FAIL | Opcode=0011 A=221 B=216 | Got=0, Expected=47736
+#    Time: 1785 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=45 | Opcode=0000 | A=85 | B=15
+# Result_PASS | Opcode=0000 A=85 B=15 | Result=0
+# .............................
+# Displaying Memory Contents Iter=46 | Opcode=0100 | A=255 | B=114
+# Result_PASS | Opcode=0100 A=255 B=114 | Result=0
+# .............................
+# Displaying Memory Contents Iter=47 | Opcode=1010 | A=180 | B=86
+# Result_PASS | Opcode=1010 A=180 B=86 | Result=0
+# .............................
+# Displaying Memory Contents Iter=48 | Opcode=1100 | A=237 | B=230
+# Result_PASS | Opcode=1100 A=237 B=230 | Result=0
+# .............................
+# Displaying Memory Contents Iter=49 | Opcode=0110 | A=84 | B=117
+# Result_PASS | Opcode=0110 A=84 B=117 | Result=0
+# .............................
+# Displaying Memory Contents Iter=50 | Opcode=0101 | A=238 | B=66
+# Result_PASS | Opcode=0101 A=238 B=66 | Result=0
+# .............................
+# Displaying Memory Contents Iter=51 | Opcode=1010 | A=239 | B=100
+# Result_PASS | Opcode=1010 A=239 B=100 | Result=0
+# .............................
+# Displaying Memory Contents Iter=52 | Opcode=1001 | A=198 | B=31
+# Result_PASS | Opcode=1001 A=198 B=31 | Result=0
+# .............................
+# Displaying Memory Contents Iter=53 | Opcode=1111 | A=40 | B=28
+# Result_PASS | Opcode=1111 A=40 B=28 | Result=0
+# .............................
+# Displaying Memory Contents Iter=54 | Opcode=1001 | A=21 | B=244
+# Result_PASS | Opcode=1001 A=21 B=244 | Result=0
+# .............................
+# Displaying Memory Contents Iter=55 | Opcode=0101 | A=171 | B=138
+# Result_PASS | Opcode=0101 A=171 B=138 | Result=0
+# .............................
+# Displaying Memory Contents Iter=56 | Opcode=0000 | A=20 | B=43
+# Result_PASS | Opcode=0000 A=20 B=43 | Result=0
+# .............................
+# Displaying Memory Contents Iter=57 | Opcode=0100 | A=51 | B=108
+# Result_PASS | Opcode=0100 A=51 B=108 | Result=0
+# .............................
+# Displaying Memory Contents Iter=58 | Opcode=0010 | A=172 | B=230
+# ** Error: FAIL | Opcode=0010 A=172 B=230 | Got=0, Expected=65478
+#    Time: 2205 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=59 | Opcode=0010 | A=196 | B=48
+# ** Error: FAIL | Opcode=0010 A=196 B=48 | Got=0, Expected=148
+#    Time: 2235 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=60 | Opcode=1111 | A=12 | B=131
+# Result_PASS | Opcode=1111 A=12 B=131 | Result=0
+# .............................
+# Displaying Memory Contents Iter=61 | Opcode=1111 | A=184 | B=4
+# Result_PASS | Opcode=1111 A=184 B=4 | Result=0
+# .............................
+# Displaying Memory Contents Iter=62 | Opcode=1001 | A=50 | B=28
+# Result_PASS | Opcode=1001 A=50 B=28 | Result=0
+# .............................
+# Displaying Memory Contents Iter=63 | Opcode=1011 | A=86 | B=235
+# ** Error: FAIL | Opcode=1011 A=86 B=235 | Got=0, Expected=1
+#    Time: 2355 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=64 | Opcode=0100 | A=232 | B=123
+# Result_PASS | Opcode=0100 A=232 B=123 | Result=0
+# .............................
+# Displaying Memory Contents Iter=65 | Opcode=1100 | A=249 | B=235
+# Result_PASS | Opcode=1100 A=249 B=235 | Result=0
+# .............................
+# Displaying Memory Contents Iter=66 | Opcode=0101 | A=190 | B=174
+# Result_PASS | Opcode=0101 A=190 B=174 | Result=0
+# .............................
+# Displaying Memory Contents Iter=67 | Opcode=1100 | A=161 | B=115
+# Result_PASS | Opcode=1100 A=161 B=115 | Result=0
+# .............................
+# Displaying Memory Contents Iter=68 | Opcode=1001 | A=70 | B=159
+# Result_PASS | Opcode=1001 A=70 B=159 | Result=0
+# .............................
+# Displaying Memory Contents Iter=69 | Opcode=0111 | A=212 | B=146
+# Result_PASS | Opcode=0111 A=212 B=146 | Result=0
+# .............................
+# Displaying Memory Contents Iter=70 | Opcode=0001 | A=49 | B=246
+# ** Error: FAIL | Opcode=0001 A=49 B=246 | Got=0, Expected=295
+#    Time: 2565 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=71 | Opcode=0011 | A=116 | B=248
+# ** Error: FAIL | Opcode=0011 A=116 B=248 | Got=295, Expected=28768
+#    Time: 2595 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=72 | Opcode=0011 | A=197 | B=34
+# ** Error: FAIL | Opcode=0011 A=197 B=34 | Got=28768, Expected=6698
+#    Time: 2635 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=73 | Opcode=1110 | A=25 | B=99
+# ** Error: FAIL | Opcode=1110 A=25 B=99 | Got=6698, Expected=0
+#    Time: 2685 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=74 | Opcode=1110 | A=225 | B=88
+# Result_PASS | Opcode=1110 A=225 B=88 | Result=0
+# .............................
+# Displaying Memory Contents Iter=75 | Opcode=1000 | A=124 | B=77
+# Result_PASS | Opcode=1000 A=124 B=77 | Result=0
+# .............................
+# Displaying Memory Contents Iter=76 | Opcode=0011 | A=72 | B=193
+# ** Error: FAIL | Opcode=0011 A=72 B=193 | Got=0, Expected=13896
+#    Time: 2785 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=77 | Opcode=0011 | A=130 | B=185
+# ** Error: FAIL | Opcode=0011 A=130 B=185 | Got=13896, Expected=24050
+#    Time: 2825 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=78 | Opcode=1000 | A=119 | B=109
+# ** Error: FAIL | Opcode=1000 A=119 B=109 | Got=24050, Expected=0
+#    Time: 2875 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=79 | Opcode=1111 | A=0 | B=213
+# Result_PASS | Opcode=1111 A=0 B=213 | Result=0
+# .............................
+# Displaying Memory Contents Iter=80 | Opcode=1100 | A=90 | B=24
+# Result_PASS | Opcode=1100 A=90 B=24 | Result=0
+# .............................
+# Displaying Memory Contents Iter=81 | Opcode=1001 | A=183 | B=198
+# Result_PASS | Opcode=1001 A=183 B=198 | Result=0
+# .............................
+# Displaying Memory Contents Iter=82 | Opcode=0010 | A=129 | B=130
+# ** Error: FAIL | Opcode=0010 A=129 B=130 | Got=0, Expected=65535
+#    Time: 3005 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=83 | Opcode=0101 | A=18 | B=90
+# Result_PASS | Opcode=0101 A=18 B=90 | Result=0
+# .............................
+# Displaying Memory Contents Iter=84 | Opcode=1001 | A=225 | B=178
+# Result_PASS | Opcode=1001 A=225 B=178 | Result=0
+# .............................
+# Displaying Memory Contents Iter=85 | Opcode=0000 | A=172 | B=223
+# Result_PASS | Opcode=0000 A=172 B=223 | Result=0
+# .............................
+# Displaying Memory Contents Iter=86 | Opcode=0100 | A=81 | B=77
+# Result_PASS | Opcode=0100 A=81 B=77 | Result=0
+# .............................
+# Displaying Memory Contents Iter=87 | Opcode=0001 | A=220 | B=68
+# ** Error: FAIL | Opcode=0001 A=220 B=68 | Got=0, Expected=288
+#    Time: 3155 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=88 | Opcode=1100 | A=118 | B=94
+# Result_PASS | Opcode=1100 A=118 B=94 | Result=0
+# .............................
+# Displaying Memory Contents Iter=89 | Opcode=1000 | A=76 | B=185
+# Result_PASS | Opcode=1000 A=76 B=185 | Result=0
+# .............................
+# Displaying Memory Contents Iter=90 | Opcode=0101 | A=168 | B=29
+# Result_PASS | Opcode=0101 A=168 B=29 | Result=0
+# .............................
+# Displaying Memory Contents Iter=91 | Opcode=1110 | A=55 | B=152
+# Result_PASS | Opcode=1110 A=55 B=152 | Result=0
+# .............................
+# Displaying Memory Contents Iter=92 | Opcode=0001 | A=144 | B=158
+# ** Error: FAIL | Opcode=0001 A=144 B=158 | Got=0, Expected=302
+#    Time: 3305 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=93 | Opcode=1000 | A=173 | B=208
+# Result_PASS | Opcode=1000 A=173 B=208 | Result=0
+# .............................
+# Displaying Memory Contents Iter=94 | Opcode=0001 | A=229 | B=147
+# ** Error: FAIL | Opcode=0001 A=229 B=147 | Got=0, Expected=376
+#    Time: 3365 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=95 | Opcode=0011 | A=114 | B=88
+# ** Error: FAIL | Opcode=0011 A=114 B=88 | Got=0, Expected=10032
+#    Time: 3395 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=96 | Opcode=1010 | A=95 | B=123
+# Result_PASS | Opcode=1010 A=95 B=123 | Result=0
+# .............................
+# Displaying Memory Contents Iter=97 | Opcode=0111 | A=117 | B=100
+# Result_PASS | Opcode=0111 A=117 B=100 | Result=0
+# .............................
+# Displaying Memory Contents Iter=98 | Opcode=0011 | A=62 | B=129
+# ** Error: FAIL | Opcode=0011 A=62 B=129 | Got=0, Expected=7998
+#    Time: 3485 ns  Scope: tb_randomize_p2 File: /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv Line: 161
+# Displaying Memory Contents Iter=99 | Opcode=1001 | A=8 | B=240
+# Result_PASS | Opcode=1001 A=8 B=240 | Result=0
+# .............................
+# === Test Finished ===
+# ** Note: $finish    : /ecel/UFAD/clausch/sv2/SVlab2/tb_part2.sv(173)
+#    Time: 3525 ns  Iteration: 0  Instance: /tb_randomize_p2
