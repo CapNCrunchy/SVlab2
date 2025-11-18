@@ -68,7 +68,7 @@ end
 //-----------------------------
 always_comb begin
     next = state;
-    enable = 0;
+    enable = 0;   // default
 
     case (state)
 
@@ -95,7 +95,15 @@ always_comb begin
             next = S_WAIT_DONE;
         end
 
+        // 🔴 OLD VERSION (buggy):
+        // S_WAIT_DONE: begin
+        //     if (done)
+        //         next = S_INCREMENT_PC;
+        // end
+
+        // ✅ NEW VERSION:
         S_WAIT_DONE: begin
+            enable = 1;              // keep enable high so datapath sees gcd_done
             if (done)
                 next = S_INCREMENT_PC;
         end
@@ -110,7 +118,6 @@ always_comb begin
         end
     endcase
 end
-
 //-----------------------------
 // FSM state register
 //-----------------------------
